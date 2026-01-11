@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Spice Garden - Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Spice <span>Garden</span></h1>
+            </div>
+            <nav>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+<!-- Reviews Section -->
+<section id="reviews" class="reviews section">
+    <div class="container">
+        <div class="section-title">
+            <h2>Customer Reviews</h2>
+            <p>What our customers are saying</p>
+        </div>
+        
+        <!-- Displaying Customer Reviews -->
+        <div class="reviews-container">
+            <div class="review">
+                <h3>John Doe</h3>
+                <p>"The food at Spice Garden is absolutely amazing! The flavors are so authentic and the ambiance is perfect for a casual dinner. Highly recommend the Hyderabadi Biryani!"</p>
+            </div>
+            <div class="review">
+                <h3>Jane Smith</h3>
+                <p>"A delightful experience! The Ghee Roast Dosa was crispy and delicious. The staff was friendly, and the atmosphere was very cozy. Will definitely return."</p>
+            </div>
+            <div class="review">
+                <h3>Raj Kumar</h3>
+                <p>"One of the best South Indian restaurants in Chennai! The South Indian Thali is a must-try. A perfect mix of flavors and spices. Highly recommend it!"</p>
+            </div>
+        </div>
+        
+        <!-- Review Submission Form -->
+        <div class="add-review">
+            <h3>Add Your Review</h3>
+            <form action="submit_review.php" method="POST">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="review">Your Review</label>
+                    <textarea id="review" name="review" rows="5" required placeholder="Write your review here"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="rating">Rating</label>
+                    <select id="rating" name="rating" required>
+                        <option value="5">5 Stars</option>
+                        <option value="4">4 Stars</option>
+                        <option value="3">3 Stars</option>
+                        <option value="2">2 Stars</option>
+                        <option value="1">1 Star</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn">Submit Review</button>
+            </form>
+        </div>
+    </div>
+</section>
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact Us</h2>
+                <p>We'd love to hear from you</p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="info-icon">📍</i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>JTR Road, P Nagar, Chennai - 40045</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="info-icon">⏰</i>
+                        <div>
+                            <h3>Opening Hours</h3>
+                            <p>Monday - Friday: 10:00 AM - 10:00 PM</p>
+                            <p>Weekends: 10:00 AM - 11:00 PM</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="info-icon">📞</i>
+                        <div>
+                            <h3>Call Us</h3>
+                            <p>9854752426</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="info-icon">✉️</i>
+                        <div>
+                            <h3>Email Us</h3>
+                            <p>info@spicegarden.com</p>
+                        </div>
+                    </div>
+                </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Spice <span>Garden</span></h2>
+                    <p>Authentic South Indian Cuisine</p>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link">Facebook</a>
+                        <a href="#" class="social-link">Instagram</a>
+                        <a href="#" class="social-link">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Spice Garden. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
