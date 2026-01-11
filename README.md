@@ -1,6 +1,6 @@
 # Spice Garden – Restaurant Website
 
-## 📌 Project Overview
+## Project Overview
 
 * **Spice Garden** is a simple **static restaurant website** designed to showcase a restaurant’s offerings in a simple and interactive way.
 
@@ -12,7 +12,7 @@
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 * **HTML5** – Website structure
 * **CSS3** – Styling and layout
@@ -20,7 +20,7 @@
 
 ---
 
-## 📂 Website Sections
+## Website Sections
 
 * **Home** – Introduction to the restaurant
 * **About** – Information about Spice Garden
@@ -33,27 +33,27 @@
 
 ---
 
-## ✨ Features
+## Features
 
-* 📋 **Interactive Menu**
+* **Interactive Menu**
   
   * Users can click **Breakfast / Lunch / Dinner** to view available food items.
-* 🖼️ **Image Gallery Interaction**
+* **Image Gallery Interaction**
   
   * Images increase in size when clicked for better viewing.
-* ⭐ **Customer Review Section**
+* **Customer Review Section**
   
   * Users can submit a review and **popup message** appears on successful submission.
-* 🧭 **Easy Navigation**
+* **Easy Navigation**
   
   * Simple and clean navigation across all pages.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
-📁 Spice-Garden
+Spice-Garden
 │── index.html        # Home page
 │── menu.html         # Menu page
 │── gallery.html      # Gallery page
@@ -65,7 +65,7 @@
 
 ---
 
-## 🎯 Purpose of the Project
+## Purpose of the Project
 
 * Learn and practice **front-end web development**
 * Understand **JavaScript DOM manipulation**
@@ -74,23 +74,22 @@
 
 ---
 
-## 📸 Image Credits
+## Image Credits
 
 * Images used in this project were collected from publicly available sources on Google Images.
 * They are used solely for educational purposes, and all rights belong to their respective owners.
 
 ---
 
-## 📈 Future Enhancements
+## Future Enhancements
 
 * Make the website fully responsive
 * Add form validation to the review section
 * Store reviews using backend/database
-* Add animations and transitions
 
 ---
 
-## 📄 License
+## License
 
 This project is created for **educational purposes only**.
 
